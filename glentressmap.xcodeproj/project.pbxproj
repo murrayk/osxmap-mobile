@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A655A81AC9AD4E005B4C07 /* hd_inners.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 72A655A71AC9AD39005B4C07 /* hd_inners.mbtiles */; };
+		72C80F741AC98DD7001B602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C80F731AC98DD7001B602F /* main.m */; };
+		72C80F771AC98DD7001B602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C80F761AC98DD7001B602F /* AppDelegate.m */; };
+		72C80F7A1AC98DD7001B602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C80F791AC98DD7001B602F /* ViewController.m */; };
+		72C80F7D1AC98DD7001B602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C80F7B1AC98DD7001B602F /* Main.storyboard */; };
+		72C80F7F1AC98DD7001B602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C80F7E1AC98DD7001B602F /* Images.xcassets */; };
+		72C80F821AC98DD7001B602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C80F801AC98DD7001B602F /* LaunchScreen.xib */; };
+		72C80F8E1AC98DD7001B602F /* glentressmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C80F8D1AC98DD7001B602F /* glentressmapTests.m */; };
+		72C8159D1AC9911A001B602F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8159C1AC9911A001B602F /* CoreLocation.framework */; };
+		72C8159F1AC99126001B602F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8159E1AC99126001B602F /* QuartzCore.framework */; };
+		72C815A01AC99133001B602F /* libMapbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C815971AC9909D001B602F /* libMapbox.a */; };
+		72C815A21AC99140001B602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C815A11AC9913F001B602F /* libsqlite3.dylib */; };
+		72C815A41AC9914B001B602F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C815A31AC9914B001B602F /* libz.dylib */; };
+		72C815A51AC99170001B602F /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72C815991AC9909D001B602F /* Mapbox.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72C80F881AC98DD7001B602F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C80F661AC98DD7001B602F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C80F6D1AC98DD7001B602F;
+			remoteInfo = glentressmap;
+		};
+		72C815961AC9909D001B602F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C815911AC9909D001B602F /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F31EFA1331050A00122B16;
+			remoteInfo = MapView;
+		};
+		72C815981AC9909D001B602F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C815911AC9909D001B602F /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD6A83751644A20C0097F31F;
+			remoteInfo = Resources;
+		};
+		72C8159A1AC990ED001B602F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C815911AC9909D001B602F /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
+			remoteInfo = MapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72A655A71AC9AD39005B4C07 /* hd_inners.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = hd_inners.mbtiles; sourceTree = "<group>"; };
+		72C80F6E1AC98DD7001B602F /* glentressmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glentressmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C80F721AC98DD7001B602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C80F731AC98DD7001B602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72C80F751AC98DD7001B602F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72C80F761AC98DD7001B602F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72C80F781AC98DD7001B602F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72C80F791AC98DD7001B602F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72C80F7C1AC98DD7001B602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72C80F7E1AC98DD7001B602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72C80F811AC98DD7001B602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		72C80F871AC98DD7001B602F /* glentressmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glentressmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C80F8C1AC98DD7001B602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C80F8D1AC98DD7001B602F /* glentressmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glentressmapTests.m; sourceTree = "<group>"; };
+		72C815911AC9909D001B602F /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "Mapbox-iOS-SDK/MapView/MapView.xcodeproj"; sourceTree = "<group>"; };
+		72C8159C1AC9911A001B602F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		72C8159E1AC99126001B602F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		72C815A11AC9913F001B602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		72C815A31AC9914B001B602F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		72C815A61AC99370001B602F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72C815A81AC994DF001B602F /* glentressmap-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glentressmap-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C80F6B1AC98DD7001B602F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C815A41AC9914B001B602F /* libz.dylib in Frameworks */,
+				72C815A21AC99140001B602F /* libsqlite3.dylib in Frameworks */,
+				72C815A01AC99133001B602F /* libMapbox.a in Frameworks */,
+				72C8159F1AC99126001B602F /* QuartzCore.framework in Frameworks */,
+				72C8159D1AC9911A001B602F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C80F841AC98DD7001B602F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A655A51AC9AD0A005B4C07 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				72A655A71AC9AD39005B4C07 /* hd_inners.mbtiles */,
+			);
+			name = maps;
+			sourceTree = "<group>";
+		};
+		72C80F651AC98DD7001B602F = {
+			isa = PBXGroup;
+			children = (
+				72C815A81AC994DF001B602F /* glentressmap-prefix.pch */,
+				72C815A61AC99370001B602F /* UIKit.framework */,
+				72C815A31AC9914B001B602F /* libz.dylib */,
+				72C815A11AC9913F001B602F /* libsqlite3.dylib */,
+				72C8159E1AC99126001B602F /* QuartzCore.framework */,
+				72C8159C1AC9911A001B602F /* CoreLocation.framework */,
+				72C815911AC9909D001B602F /* MapView.xcodeproj */,
+				72C80F701AC98DD7001B602F /* glentressmap */,
+				72C80F8A1AC98DD7001B602F /* glentressmapTests */,
+				72C80F6F1AC98DD7001B602F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C80F6F1AC98DD7001B602F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C80F6E1AC98DD7001B602F /* glentressmap.app */,
+				72C80F871AC98DD7001B602F /* glentressmapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C80F701AC98DD7001B602F /* glentressmap */ = {
+			isa = PBXGroup;
+			children = (
+				72A655A51AC9AD0A005B4C07 /* maps */,
+				72C80F751AC98DD7001B602F /* AppDelegate.h */,
+				72C80F761AC98DD7001B602F /* AppDelegate.m */,
+				72C80F781AC98DD7001B602F /* ViewController.h */,
+				72C80F791AC98DD7001B602F /* ViewController.m */,
+				72C80F7B1AC98DD7001B602F /* Main.storyboard */,
+				72C80F7E1AC98DD7001B602F /* Images.xcassets */,
+				72C80F801AC98DD7001B602F /* LaunchScreen.xib */,
+				72C80F711AC98DD7001B602F /* Supporting Files */,
+			);
+			path = glentressmap;
+			sourceTree = "<group>";
+		};
+		72C80F711AC98DD7001B602F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C80F721AC98DD7001B602F /* Info.plist */,
+				72C80F731AC98DD7001B602F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72C80F8A1AC98DD7001B602F /* glentressmapTests */ = {
+			isa = PBXGroup;
+			children = (
+				72C80F8D1AC98DD7001B602F /* glentressmapTests.m */,
+				72C80F8B1AC98DD7001B602F /* Supporting Files */,
+			);
+			path = glentressmapTests;
+			sourceTree = "<group>";
+		};
+		72C80F8B1AC98DD7001B602F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C80F8C1AC98DD7001B602F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72C815921AC9909D001B602F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C815971AC9909D001B602F /* libMapbox.a */,
+				72C815991AC9909D001B602F /* Mapbox.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C80F6D1AC98DD7001B602F /* glentressmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C80F911AC98DD7001B602F /* Build configuration list for PBXNativeTarget "glentressmap" */;
+			buildPhases = (
+				72C80F6A1AC98DD7001B602F /* Sources */,
+				72C80F6B1AC98DD7001B602F /* Frameworks */,
+				72C80F6C1AC98DD7001B602F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C8159B1AC990ED001B602F /* PBXTargetDependency */,
+			);
+			name = glentressmap;
+			productName = glentressmap;
+			productReference = 72C80F6E1AC98DD7001B602F /* glentressmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72C80F861AC98DD7001B602F /* glentressmapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C80F941AC98DD7001B602F /* Build configuration list for PBXNativeTarget "glentressmapTests" */;
+			buildPhases = (
+				72C80F831AC98DD7001B602F /* Sources */,
+				72C80F841AC98DD7001B602F /* Frameworks */,
+				72C80F851AC98DD7001B602F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C80F891AC98DD7001B602F /* PBXTargetDependency */,
+			);
+			name = glentressmapTests;
+			productName = glentressmapTests;
+			productReference = 72C80F871AC98DD7001B602F /* glentressmapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C80F661AC98DD7001B602F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = murray;
+				TargetAttributes = {
+					72C80F6D1AC98DD7001B602F = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 8UFDJCMUH2;
+					};
+					72C80F861AC98DD7001B602F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 72C80F6D1AC98DD7001B602F;
+					};
+				};
+			};
+			buildConfigurationList = 72C80F691AC98DD7001B602F /* Build configuration list for PBXProject "glentressmap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72C80F651AC98DD7001B602F;
+			productRefGroup = 72C80F6F1AC98DD7001B602F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 72C815921AC9909D001B602F /* Products */;
+					ProjectRef = 72C815911AC9909D001B602F /* MapView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				72C80F6D1AC98DD7001B602F /* glentressmap */,
+				72C80F861AC98DD7001B602F /* glentressmapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		72C815971AC9909D001B602F /* libMapbox.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapbox.a;
+			remoteRef = 72C815961AC9909D001B602F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		72C815991AC9909D001B602F /* Mapbox.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Mapbox.bundle;
+			remoteRef = 72C815981AC9909D001B602F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C80F6C1AC98DD7001B602F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C815A51AC99170001B602F /* Mapbox.bundle in Resources */,
+				72C80F7D1AC98DD7001B602F /* Main.storyboard in Resources */,
+				72C80F821AC98DD7001B602F /* LaunchScreen.xib in Resources */,
+				72C80F7F1AC98DD7001B602F /* Images.xcassets in Resources */,
+				72A655A81AC9AD4E005B4C07 /* hd_inners.mbtiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C80F851AC98DD7001B602F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C80F6A1AC98DD7001B602F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C80F7A1AC98DD7001B602F /* ViewController.m in Sources */,
+				72C80F771AC98DD7001B602F /* AppDelegate.m in Sources */,
+				72C80F741AC98DD7001B602F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C80F831AC98DD7001B602F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C80F8E1AC98DD7001B602F /* glentressmapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72C80F891AC98DD7001B602F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C80F6D1AC98DD7001B602F /* glentressmap */;
+			targetProxy = 72C80F881AC98DD7001B602F /* PBXContainerItemProxy */;
+		};
+		72C8159B1AC990ED001B602F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapView;
+			targetProxy = 72C8159A1AC990ED001B602F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72C80F7B1AC98DD7001B602F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C80F7C1AC98DD7001B602F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72C80F801AC98DD7001B602F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C80F811AC98DD7001B602F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72C80F8F1AC98DD7001B602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72C80F901AC98DD7001B602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72C80F921AC98DD7001B602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glentressmap-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Mapbox-iOS-SDK\"/**",
+				);
+				INFOPLIST_FILE = glentressmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/murray/glentress/mapbox-ios-sdk/MapView/Map/GRMustache/lib",
+					"/Users/murray/glentress/mapbox-ios-sdk/Proj4",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		72C80F931AC98DD7001B602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glentressmap-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Mapbox-iOS-SDK\"/**",
+				);
+				INFOPLIST_FILE = glentressmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/murray/glentress/mapbox-ios-sdk/MapView/Map/GRMustache/lib",
+					"/Users/murray/glentress/mapbox-ios-sdk/Proj4",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		72C80F951AC98DD7001B602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = glentressmapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glentressmap.app/glentressmap";
+			};
+			name = Debug;
+		};
+		72C80F961AC98DD7001B602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = glentressmapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glentressmap.app/glentressmap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C80F691AC98DD7001B602F /* Build configuration list for PBXProject "glentressmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C80F8F1AC98DD7001B602F /* Debug */,
+				72C80F901AC98DD7001B602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C80F911AC98DD7001B602F /* Build configuration list for PBXNativeTarget "glentressmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C80F921AC98DD7001B602F /* Debug */,
+				72C80F931AC98DD7001B602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C80F941AC98DD7001B602F /* Build configuration list for PBXNativeTarget "glentressmapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C80F951AC98DD7001B602F /* Debug */,
+				72C80F961AC98DD7001B602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72C80F661AC98DD7001B602F /* Project object */;
+}
